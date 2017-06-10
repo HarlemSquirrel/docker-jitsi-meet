@@ -1,0 +1,6 @@
+version: '2'
+services:
+  jitsi-meet:
+    build: .
+    ports:
+     - "443:443"
